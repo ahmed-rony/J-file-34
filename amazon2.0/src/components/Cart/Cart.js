@@ -10,7 +10,6 @@ const Cart = (props) => {
         total = total + product.price;
     }
     // ==================================;
-    // ==================================;
     let shipping = 0;  
     if(total > 40){
         shipping = 0;
